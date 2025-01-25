@@ -165,9 +165,9 @@ class DbusShelly1pmService:
          pre = '/Ac/' + phase
 
          if phase == pvinverter_phase and plusPmSupport == 'True':
-             power = meter_data['switch:0']['apower']
-             total = meter_data['switch:0']['aenergy']['total']
-             voltage = meter_data['switch:0']['voltage']
+             power = meter_data['em1:0']['aprt_power']
+             total = meter_data['em1data:0']['total_act_energy']
+             voltage = meter_data['em1:0']['voltage']
              current = power / voltage
 
              self._dbusservice[pre + '/Voltage'] = voltage
