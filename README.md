@@ -44,7 +44,7 @@ After that call the install.sh script.
 
 instance1 The following script should do everything for  you:
 ```
-wget https://github.com/Halmand/dbus-shelly-1pm-and-pm1-Plus-pvinverter-multi-instance/archive/refs/heads/main.zip
+wget https://github.com/Cpt-Echo/dbus-shelly-1pm-and-pm1-Plus-pvinverter-multi-instance/archive/refs/heads/main.zip
 unzip main.zip "dbus-shelly-1pm-and-pm1-Plus-pvinverter-multi-instance-main/*" -d /data
 mv /data/dbus-shelly-1pm-and-pm1-Plus-pvinverter-multi-instance-main /data/dbus-shelly-1pm-pvinverter01
 chmod a+x /data/dbus-shelly-1pm-pvinverter01/install.sh
